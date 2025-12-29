@@ -62,7 +62,7 @@ graph TD
 
 A API é totalmente documentada via **Swagger UI**. 
 
-![foto](../auth/swagger.png)
+![foto](swagger.png)
 
 | Método | Endpoint | Descrição | Nível de Acesso |
 | :--- | :--- | :--- | :--- |
