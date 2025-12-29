@@ -99,7 +99,7 @@ você pode alterar a duração do token ou a chave secreta.
 mvn spring-boot:run
 ```
 
-1. **Teste (Credenciais Padrão)**: O sistema inicia com dois usuários pré-criados para facilitar testes:
+4. **Teste (Credenciais Padrão)**: O sistema inicia com dois usuários pré-criados para facilitar testes:
 
     - **Admin**: admin@email.com / admin123
 
