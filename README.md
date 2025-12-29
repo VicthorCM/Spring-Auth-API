@@ -1,4 +1,4 @@
-# Sprinf Auth API (Spring Boot 3 + Security 6)
+# Spring Auth API (Spring Boot 3 + Security 6)
 
 ![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
@@ -9,7 +9,7 @@
 
 ## 🎯 Sobre o Projeto
 
-Este projeto foi desenvolvido para resolver o desafio de criar um sistema de autenticação seguro e performático, fugindo das implementações básicas de tutoriais. O objetivo foi arquitetar uma solução **Stateless** (sem sessão no servidor) que mitigasse riscos de roubo de credenciais mantendo uma boa experiência de usuário (UX).
+Este projeto foi desenvolvido para resolver o desafio de criar um sistema de autenticação seguro e performático. O objetivo foi arquitetar uma solução **Stateless** (sem sessão no servidor) que mitigasse riscos de roubo de credenciais mantendo uma boa experiência de usuário (UX).
 
 A solução implementa o padrão de **Dual Tokens** (Access Token de curta duração + Refresh Token de longa duração com rotação), além de registro de logs completa via processamento assíncrono.
 
@@ -80,8 +80,8 @@ A API é totalmente documentada via **Swagger UI**.
 
 
 ``` code
-git clone https://github.com/VicthorCM/[NOME-DO-REPO].git
-cd [NOME-DO-REPO]
+git clone https://github.com/VicthorCM/Spring-Auth-API.git
+cd Spring-Auth-API
 ``` 
 
 2. **Configure as variáveis (Opcional)**: No arquivo 
