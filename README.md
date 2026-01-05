@@ -7,7 +7,7 @@
 
 > **Uma arquitetura de autenticação robusta, stateless e escalável pronta para produção.**
 
-## 🎯 Sobre o Projeto
+##  Sobre o Projeto
 
 Este projeto foi desenvolvido para resolver o desafio de criar um sistema de autenticação seguro e performático. O objetivo foi arquitetar uma solução **Stateless** (sem sessão no servidor) que mitigasse riscos de roubo de credenciais mantendo uma boa experiência de usuário (UX).
 
@@ -15,7 +15,7 @@ A solução implementa o padrão de **Dual Tokens** (Access Token de curta dura�
 
 ---
 
-## 🏗️ Arquitetura e Design Patterns
+##  Arquitetura e Design Patterns
 
 O sistema segue a arquitetura em camadas (Layered Architecture) e utiliza conceitos avançados de engenharia de software:
 
@@ -34,7 +34,7 @@ graph TD
 
 ```
 
-### 💡 Decisões Técnicas Importantes
+###  Decisões Técnicas Importantes
 - **Segurança (JWT + Refresh Token)**: Implementei Access Tokens com validade de apenas 15 minutos para minimizar danos em caso de vazamento. O Refresh Token (armazenado no banco) permite renovar o acesso sem logar novamente, e pode ser revogado remotamente (Logout Real).
 
 - **Performance (Async Logs)**: Para garantir auditoria sem latência, utilizei interceptadores (HandlerInterceptor) combinados com a anotação @Async. O log de acesso é salvo em uma thread paralela, não bloqueando a resposta ao usuário.
@@ -43,7 +43,7 @@ graph TD
 
 - **Boas Práticas**: Uso de Records (Java 14+) para DTOs imutáveis, tratamento global de exceções e injeção de dependência via construtor.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Linguagem**: Java 17+ (Uso de Records, Streams API, Var, Optional)
 
 - **Framework**: Spring Boot 3
@@ -58,7 +58,7 @@ graph TD
 
 - **Ferramentas**: Maven, Lombok, Git.
 
-## 🔌 Endpoints e Documentação
+##  Endpoints e Documentação
 
 A API é totalmente documentada via **Swagger UI**. 
 
